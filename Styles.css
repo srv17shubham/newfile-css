@@ -145,3 +145,33 @@ p {
     vertical-align: middle;
     color: #007bff; /* Blue color for icons */
 }
+/* Common Styles */
+.center-block {
+    display: block;
+    margin: auto; /* Corrected 'magin' to 'margin' */
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.auto-height {
+    margin: 5px auto;
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+    height: auto !important; /* !important use with caution */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.opacity-zero {
+    font-size: 1px;
+    opacity: 0;
+}
+
+/* Additional styles if required */
+
